@@ -206,9 +206,10 @@
   }
 }
 @media (max-width: 550px) {
-  #our-projects #photos .photo{
+  #our-projects #photos .photo,
+  #our-projects #photos .photo-area .photo-info{
     width: 300px;
-    height: 200px;
+    height: 180px;
   }
   #price .product {
     width: 350px;
