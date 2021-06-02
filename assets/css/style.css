@@ -249,7 +249,7 @@ header #header {
   display: flex;
   width: 440px;
   height: 275px;
-  background: url(/media/foto6.jpg);
+  background: url(/media/foto4.jpg);
   object-fit: cover;
   background-size: contain;
   box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.6);
