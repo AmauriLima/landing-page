@@ -24,7 +24,7 @@
   }
   
   #propagandas-area {
-    overflow: scroll;
+    overflow-x: scroll;
   }
 }
 @media (min-width: 1000px) {
