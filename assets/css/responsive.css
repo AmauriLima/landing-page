@@ -22,6 +22,10 @@
   #team {
     background-size: cover;
   }
+  
+  #propagandas-area {
+    overflow: scroll;
+  }
 }
 @media (min-width: 1000px) {
   #menu .menu-opener {
