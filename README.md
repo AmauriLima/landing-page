@@ -3,4 +3,4 @@ Landing page feita inspirada no design de Alex Buking ( https://www.behance.net/
 
 Esse trabalho foi feito para testar meus conhecimentos em html e css, devido a isso no site ainda faltam muitas funcionalidades que só poderiam ser adicionadas com JavaScript.
 
-O site pode ser acessado pelo seguinte link hospedado no próprio github pages
+O site pode ser acessado pelo seguinte link hospedado no próprio github pages: https://amaurilima.github.io/landing-page/
