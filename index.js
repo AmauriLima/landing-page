@@ -7,3 +7,11 @@ function toggleMenu() {
     navMenu.style.display = 'none';
   }
 }
+
+function showMenu() {
+  if (window.screen.availWidth <= 1000) {
+    navMenu.style.display = 'none';
+  } else {
+    navMenu.style.display = 'block';
+  }
+}
