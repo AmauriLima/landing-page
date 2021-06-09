@@ -1,5 +1,6 @@
+const menu = document.querySelector('#menu .menu-opener')
+const navMenu = document.querySelector('#menu nav')
 function toggleMenu() {
-  const navMenu = document.querySelector('#menu nav')
   if (navMenu.style.display == 'none') {
     navMenu.style.display = 'block';
   } else {
