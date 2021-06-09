@@ -9,7 +9,7 @@ function toggleMenu() {
 }
 
 function showMenu() {
-  if (window.screen.availWidth <= 1000) {
+  if (window.innerWidth <= 1000) {
     navMenu.style.display = 'none';
   } else {
     navMenu.style.display = 'block';
