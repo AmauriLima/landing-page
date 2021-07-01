@@ -72,13 +72,13 @@ header #header {
   border-bottom: 5px solid transparent;
   font-size: 12px;
   color: #fff;
+  transition: 200ms;
 }
 
 #header #menu ul li a:hover,
 #header #menu ul li a.active {
   border-bottom: 5px solid #b28756;
   color: #ccc;
-  transition: 200ms;
 }
 
 #banner {
@@ -92,6 +92,7 @@ header #header {
 #banner #sliders {
   height: 100%;
   width: 300vw;
+  transition: 400ms;
 }
 
 #banner .slide {
@@ -141,11 +142,11 @@ header #header {
   text-align: center;
   font-size: 11px;
   font-weight: 600;
+  transition: 400ms;
 }
 
 .btn:hover {
   transform: translateY(-2px);
-  transition: 400ms;
 }
 
 .btn-golden {
@@ -177,6 +178,7 @@ header #header {
   border-radius: 7px;
   border: 2px solid #b28756;
   cursor: pointer;
+  transition: 200ms;
 }
 
 .pointer.active {
@@ -263,14 +265,16 @@ header #header {
   display: flex;
   width: 440px;
   height: 275px;
-  background: url(/media/foto4.jpg);
+  background: url(../../media/foto6.jpg);
   object-fit: cover;
   background-size: contain;
   box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.6);
+  transition: 300ms;
 }
 #about-us--right a .content {
   width: 100%;
   height: 100%;
+  transition: 300ms;
 }
 #about-us--right a h3 {
   height: 100%;
@@ -281,11 +285,11 @@ header #header {
   font-size: 30px;
   text-transform: uppercase;
   color: transparent;
+  transition: 300ms;
 }
 
 #about-us--right a:hover {
   transform: translateY(-10px);
-  transition: 300ms;
   border-radius: 20px;
 }
 
@@ -293,7 +297,6 @@ header #header {
 #about-us--right a h3:hover {
   background: rgba(0, 0, 0, 0.4);
   color: #fff;
-  transition: 300ms;
   border-radius: 20px;
 }
 
@@ -389,22 +392,22 @@ header #header {
   text-transform: uppercase;
   color: #555;
   cursor: pointer;
+  transition: 400ms;
 }
 
 #our-projects #menu-projects li:hover {
   background-color: #eaeaea;
-  transition: 400ms;
 }
 
 #our-projects #menu-projects li span {
   display: block;
   padding: 17px 15px 12px 15px;
   border-bottom: 5px solid transparent;
+  transition: 400ms;
 }
 #our-projects #menu-projects li span:hover,
 #our-projects #menu-projects li span.active {
   border-bottom: 5px solid #b28756;
-  transition: 400ms;
 }
 
 #our-projects #photos {
@@ -424,6 +427,8 @@ header #header {
   overflow: hidden;
   bottom: 0;
   cursor: pointer;
+  transition: 400ms;  
+
 }
 
 #our-projects #photos .photo img {
@@ -440,6 +445,7 @@ header #header {
   flex-direction: column;
   text-align: center;
   color: transparent;
+  transition: 400ms;  
 }
 #our-projects #photos .photo-area .photo-info p {
   margin-top: 10px;
@@ -452,7 +458,6 @@ header #header {
   color: #fff;
   background-color: rgb(0, 0, 0, 0.7);
   border-radius: 20px;
-  transition: 400ms;  
 }
 
 #our-projects #photos .photo-info h4 {
@@ -561,6 +566,7 @@ header #header {
   justify-content: center;
   margin-right: 5px;
   cursor: pointer;
+  transition: 400ms;
 }
 
 .social-media a.reticencias div {
@@ -572,7 +578,6 @@ header #header {
 }
 .social-media a:hover {
   background-color: #b28756;
-  transition: 400ms;
 }
 
 .social-media a:last-child {
@@ -929,6 +934,11 @@ header #header {
   background: #f7f7f7;
   border: none;
   border-bottom: 1px solid #999;
+  outline: none;
+}
+
+#contact-us form textarea {
+  resize: none;
 }
 
 #contact-us form #name,
@@ -1030,11 +1040,11 @@ footer {
   height: 35px;
   width: 35px;
   border-radius: 18px;
+  transition: 400ms;
 }
 
 #footer #leftside .social-media a:hover {
   background-color: #b28756;
-  transition: 400ms;
 }
 
 #footer #middle {
